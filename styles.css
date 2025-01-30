@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+ .logo {
+    display: flex;
+    align-items: center; 
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul, nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: arial;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+.banner {
+    background-image: url(Images/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.principal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal h1 {
+    color: white;
+    font-size:60px;
+    text-shadow: 0px 1px 0 #5555;
+    margin: 0;
+    padding: 0;
+    max-width: 320px;
+}
+
+.principal h2 {
+    color: white;
+    font-size:20px;
+    text-shadow: 0px 1px 0 #5555;
+    margin: 0;
+    padding: 0;
+    max-width: 320px;
+    margin-top: 30px;
+}
+
+.secundario {
+    background-color: #727272;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+}
+
+.primeiro, .segundo, .terceiro {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.primeiro {
+    background-color: #39aae1;
+}
+
+.segundo {
+    background-color: #0079c7;
+}
+
+.terceiro {
+    background-color:#2b4c99;
+}
+
+.banner-title h1{
+    font-size: 30px;
+}
+
+.banner-content h2{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 18px;
+}
+
+.banner-button a {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid white; 
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.banner-hours p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.content .container-content section {
+    flex: 2;
+}
+
+.content .container-content aside {
+    flex: 1;
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text  {
+    color: black;
+    font-size: 21px;
+}
+
+.widget-title-bar {
+    height: 3px;
+    width: 50px;
+    background-color: #36a9e1;
+    margin-top: 8px;
+}
+
+.widget-content-department{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.quadrado {
+    background-color: #36a9e1;
+    width: 150px;
+    height: 150px;
+}
+
+.widget-content-make {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.widget-content-make span {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.info1 {
+    border-top: 1px solid #969696;
+}
+
+.info1, .info2, .info3 {
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid #969696;
+}
+article a {
+    text-decoration: none;
+}
+.widget-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+article .news-data {
+    display: flex;
+    flex-direction: row;
+}
+
+article .news-posted-at {
+    background-color: #2b4c99;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    margin-right: 3px;
+}
+
+article .news-comments {
+    background-color: #39aae1;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+
+article .news-thumb img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+article .news-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+
+article .news-resume {
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+.container-footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    flex-direction: column;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.menu1, .menu2, .menu3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.menu1 {
+    background-color: #39aae1;
+}
+
+.menu2 {
+    background-color: #0079c7;
+}
+
+.menu3 {
+    background-color:#2b4c99;
+}
+
+.footer-area {
+    display: flex;
+
+}
+
+.area {
+    flex: 1;
+    color: white;
+}
+
+footer .widget-title-text {
+    color: white
+}
+
+.footer-copy {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 50px;
+    border-top: 1px solid #2c2c2c;
+}
+
+.footer-copy span {
+    color: #5c5c5c;
+}
+
+.menu1 p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.menu1 p span {
+    font-size: 14px;
+}
+
+.menu2 p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.menu2 p span {
+    font-size: 14px;
+}
+
+.menu3 p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.menu3 p span {
+    font-size: 14px;
+}
+
+.medicenter-text1 {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #969696;
+    line-height: 18px;
+}
+
+.medicenter-text2 {
+    margin-top: 30px;
+    line-height: 18px;
+}
+
+.medicenter-text2 #email {
+    color: white;
+}
+
+.medicenter-text2 .num {
+    margin-right: 52px;
+}
+
+.medicenter-text2 p{
+    font-size: 13px;
+    color: #969696;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-posts-text p {
+    margin-top: 30px;
+    color: white;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+
+.latest-posts-text p span {
+    font-size: 12px;
+    color: #39aae1;
+}
+
+.latest-tweets-text p{
+    margin-top: 30px;
+    color: #969696;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    line-height: 18px;
+}
+
+.latest-tweets-text p span {
+    font-size: 12px;
+    color: #39aae1;
+}
+
+.latest-tweets-text p a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 600px){
+    
+    .principal h1 {
+        font-size: 55px;
+    }
+
+    .principal h2 {
+        font-size: 17px;
+    }
+
+}
